@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
             <li className=" text-white">COMPANY</li>
             <li>About us</li>
             <li>News</li>
-            <li>Carrers</li>
+            <li>Careers</li>
             <li>Investors</li>
             <li>Payment options </li>
           </ul>
@@ -47,8 +47,8 @@ const Footer: React.FC = () => {
         </div>
         <div className="  sm:flex hidden justify-start items-center mt-5  gap-4 text-gray-400">
           <span>Guides</span>
-          <span>Terms of sale</span>
-          <span>Terms of use</span>
+          <span>Terms of Sale</span>
+          <span>Terms of Use</span>
         </div>
       </div>
     </div>

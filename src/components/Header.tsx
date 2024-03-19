@@ -16,17 +16,17 @@ const Header: React.FC = () => {
           <li
             className={`border-b-[2px] hover:border-black border-white cursor-pointer`}
           >
-            New & featured
+            New & Featured
           </li>
           <li
             className={`border-b-[2px] hover:border-black border-white cursor-pointer`}
           >
-            Mens
+            Men
           </li>
           <li
             className={`border-b-[2px] hover:border-black border-white cursor-pointer`}
           >
-            Womens
+            Women
           </li>
           <li
             className={`border-b-[2px] hover:border-black border-white cursor-pointer`}
