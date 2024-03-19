@@ -17,7 +17,7 @@ export default async function Page({ params }: { params: { id: string } }) {
   const data: Product = await getData(params.id);
 
   return (
-    <div className="w-full sm:h-screen h-fit flex justify-center">
+    <div className="w-full sm:min-h-screen sm:max-h-fit h-fit flex justify-center">
       <div className="  w-5/6   mt-10  ">
         <ProductDetails product={data} />
         <Move id={params.id} />
